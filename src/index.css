@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,58 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Game Container */
+.container{
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SIDEBAR */
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.restart-button{
+  color: black;
+  font-size: larger;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20%;
+}
+
+/* Player */
+.player{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player button{
+  font-size: larger;
+  padding: 20%;
+  border-radius: 20%;
+}
+
+.option{
+  margin: 30px;
+}
+
+/* Enemy */
+
+.enemy{
+  margin: 10%;
+}
+
+.timer{
+  text-align: center;
 }
